@@ -1,0 +1,17 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Upgrade pip
+RUN pip install --upgrade pip
+
+# Install dependencies
+RUN pip install scikit-learn==1.2.2 xgboost
+
+# Copy the current directory contents into the container
+COPY . /app
+
+# Command to run your Python script or start an interactive session
+CMD ["python", "your_script.py"]
