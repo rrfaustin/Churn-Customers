@@ -26,3 +26,32 @@ The clients can choose either a monthly payment or sign a 1- or 2-year contract.
  In each file, the column customerID contains a unique code assigned to each client.
  
 --------------------------------------------------------------------
+ <ins>The Proposed work Plan</ins>
+--------------------------------
+**Goal:** Develop a model to predict user churn
+
+Steps:
+
+1. INTRO<br>
+
+2. Download the data<br>
+
+3. Explore the data to determine how to treat the data in the preprocessing step<br>
+
+4. Perform preprocessing for the data<br>
+
+    - Merge the data from all dataframes to one main dataframe<>
+    - Change column names to underscore lowercase format<br>
+    - Convert columns to desired data type<br>
+
+5. Perform EDA to explore the data in depth<br>
+
+6. Feature Engineering<br>
+
+7. Test various classification models against a dummy benchmark. Logistic Regression will be used in this case. 
+    Use ROC-AUC and accuracy score for evaluation metrics. Fine tune models using cross-validation. 
+    Incorporate gradient boosting techniques.<br>
+
+8. Evaluate final model on test set.<br>
+
+9. conclusion<br>
